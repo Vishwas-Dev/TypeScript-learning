@@ -10,6 +10,9 @@ class Product {
         this.price = price;
         this.tags = ["electronics", "mobile"];
     }
+  display() : void {
+        console.log("Product name is", this.name, " and price is ", this.price);
+    }
 
   
     setPrice(p:number) : void {
