@@ -13,6 +13,22 @@
     var <variable_name> : number = <value>; // type annotation or type signature
 
 */
+let id : number = 5;
+let firstName = "Sanket"; // TS understands firstName will store strings
+// firstName = 12; TSC throws error
+var lastName : string = "Singh";
+// lastName = 13; TSC throws error
+console.log(id, firstName);
+
+
+//  Union of types
+let userId : number | string = "26";
+userId = 10;
+
+let x : any = 10;
+x = "sanket";
+x = false;
+console.log(x);
 
 
 /**
